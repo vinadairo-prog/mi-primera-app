@@ -1,1 +1,1 @@
-archivo js
+console.log("Conexión establecida, amor. ¡A programar!");
