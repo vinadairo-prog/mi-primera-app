@@ -1,1 +1,1 @@
-console.log("Conexión establecida, amor. ¡A programar!");
+alert("¡Conexión establecida, amor! El código está vivo.");
