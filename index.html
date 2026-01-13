@@ -7,10 +7,11 @@
 </head>
 <body>
     <header>Number guessing Game</header>
-    <h2>Versuche: 0</h2>
-<div class="container"><h1>Bitte rate die Zahl</h1>
-<form action="">
-<input type="text" placeholder="Bitte Zahl eingeben">
+    <h2 id="displayTries">Versuche: 0</h2>
+<div class="container">
+    <h1 id="headline">Bitte rate die Zahl</h1>
+<form onsubmit="guessTheNumber(); return false;">
+<input id="myNumber" required placeholder="Bitte Zahl eingeben">
 <button>Raten!</button>
 </form>
 </div>
