@@ -6,11 +6,18 @@ function guessTheNumber() {
     tries = tries + 1;
     displayTries.innerHTML = 'Versuche: ' + tries;
     if(numberToGuess == myNumber.value) {
-    headline.innerHTML = 'Du hast gewonnen!✨';}
+    headline.innerHTML = 'Du hast gewonnen!✨';
+let jsConfetti =new JSConfetti();
+jsConfetti.addConfetti();
+}
 
      if(numberToGuess > myNumber.value) {
     headline.innerHTML = 'De Zahl ist größer!✨';}
 
      if(numberToGuess < myNumber.value) {
     headline.innerHTML = 'Die Zahl ist kleiner!✨';}
+
+myNumber.value = "";
+
+
 }
